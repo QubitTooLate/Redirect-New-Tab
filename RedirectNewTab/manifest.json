@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Redirect New Tab",
+    "short_name": "RNT",
+    "description": "Redirects the new tab.",
+    "version": "1",
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "optional_permissions": [ "tabs" ],
+    "icons": {
+      "32": "img/icon32.png"
+    }
+  }
